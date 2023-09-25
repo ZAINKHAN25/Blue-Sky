@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Ingrid+Darling&family=Istok+Web:ital@1&family=Open+Sans&family=Poppins:ital,wght@0,400;1,500;1,800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Istok Web;
+}
+
+body{
+    background-color: #1C3259;
+}
+
+.welcomepage{
+    color: #3583E9 !important;
+    height: 100vh;
+}
+
+.welcomepage h1{
+    font-size: 50px !important;
+}
+
+.welcomepage img{
+    width: 300px;
+}
+
+.welcomepage button{
+    color: #3583E9;
+    border: 3px solid #3583E9;
+    border-radius: 30px;
+    font-weight: normal;
+    transition: all .3s;
+}
+
+.welcomepage button:hover{
+    border: 3px solid #3583E9;
+    color: white;
+    background-color: #3583E9;
+}
+
+.mainpage{
+    color: white;
+}
