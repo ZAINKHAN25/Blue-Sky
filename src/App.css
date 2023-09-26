@@ -5,6 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Istok Web;
+    font-style: normal !important;
 }
 
 body{
@@ -40,4 +41,78 @@ body{
 
 .mainpage{
     color: white;
+}
+
+.bodychangediv button{
+    color: #3583E9;
+    border: 3px solid #3583E9;
+    font-weight: normal;
+    transition: all .3s;
+    background-color: transparent;
+}
+
+.bodychangediv button:hover{
+    border: 3px solid #3583E9;
+    color: #fff;
+    background-color: #3583E9;
+}
+
+.headerdiv{
+    width: 100%;
+    color: #3583E9;
+}
+
+.headerimg{
+    width: 60px;
+}
+
+.heading{
+    text-align: center;
+    color: #3583E9;
+    margin-bottom: 30px;
+    font-size: 45px;
+}
+
+.singlecard{
+    background-color: #3583E9;
+    border-radius: 15px;
+    padding-top: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 40px;
+}
+
+.btnofchangeme{
+    background-color: #3583E9;
+    color: white;
+}
+.btnofchangeme{
+    color: #3583E9;
+    border: 3px solid #3583E9;
+    font-weight: normal;
+    transition: all .3s;
+    background-color: transparent;
+    padding: 10px 40px;
+    filter: drop-shadow(1px 2px 10px rgba(255,255,255,30%));
+}
+
+.btnofchangeme:hover{
+    border: 3px solid #3583E9;
+    color: #fff;
+    background-color: #3583E9;
+}
+
+.resultdiv{
+    background-color: rgba(53, 131, 233, 39%);
+    width: 100%;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+table{
+    width: 100%;
+}
+
+.firstrow{
+    margin-right: auto;
 }
